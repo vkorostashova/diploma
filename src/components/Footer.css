@@ -1,60 +1,66 @@
 footer {
-    width: 100%;
-    background-color: rgb(41, 41, 43);
-    position: fixed;
-    bottom: 0;
+  width: 100%;
+  background-color: rgb(41, 41, 43);
+  position: fixed;
+  bottom: 0;
 }
 
-.footer-element {
-    justify-content: space-between;
-}
 
 .support {
-    line-height: 3px;
-    font-size: .7rem;
-    color: rgb(188, 195, 201);
-    flex-direction: column;
-    justify-content: left;
-  }
+  align-self: center;
+  line-height: 3px;
+  font-size: .7rem;
+  color: rgb(188, 195, 201);
+  flex-direction: column;
+  justify-content: left;
+}
 
-  .social {
-    justify-content: end  ;
-    text-align: center;
-  }
-  .social-icon {
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-    background: url(../img/sprite.png);
-    border-radius: .2rem;
-    float: left;
-    margin-right: .5rem;
-  
-  }
-  .social-icon-facebook {
-    background-position: -7px -13px ;
-  }
-  .social-icon-facebook:hover {
-    background-position: -7px -49px ;
-  }
-  .social-icon-facebook:active {
-    background-position: -7px -85px ;
-  }
-  .social-icon-youtube {
-    background-position: 39px -13px ;
-  }
-  .social-icon-youtube:hover {
-    background-position: 39px -49px ;
-  }
-  .social-icon-youtube:active {
-    background-position: 39px -85px ;
-  }
-  .social-icon-twitter {
-    background-position: 113px -13px ;
-  }
-  .social-icon-twitter:hover {
-    background-position: 113px -49px ;
-  }
-  .social-icon-twitter:active {
-    background-position: 113px -85px ;
-  }
+.social {
+  justify-content: end;
+  text-align: center;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  background: url(../img/sprite.png);
+  border-radius: .2rem;
+  float: left;
+}
+
+.social-icon-facebook {
+  background-position: -7px -13px;
+}
+
+.social-icon-facebook:hover {
+  background-position: -7px -49px;
+}
+
+.social-icon-facebook:active {
+  background-position: -7px -85px;
+}
+
+.social-icon-youtube {
+  background-position: 39px -13px;
+}
+
+.social-icon-youtube:hover {
+  background-position: 39px -49px;
+}
+
+.social-icon-youtube:active {
+  background-position: 39px -85px;
+}
+
+.social-icon-twitter {
+  background-position: 113px -13px;
+}
+
+.social-icon-twitter:hover {
+  background-position: 113px -49px;
+}
+
+.social-icon-twitter:active {
+  background-position: 113px -85px;
+}

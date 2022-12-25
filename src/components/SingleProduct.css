@@ -1,0 +1,8 @@
+.single-description {
+    flex-direction: column;
+}
+
+.single-product img {
+    max-height: 25rem;
+    width: 100%;
+}

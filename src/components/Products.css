@@ -1,0 +1,15 @@
+.product img {
+    min-height: 12rem;
+    max-height: 12rem;
+    max-width: 80%;
+}
+
+.product {
+    background-color: rgb(250, 252, 253);
+    border: 1px solid rgb(117, 92, 116);
+    border-radius: .5rem;
+}
+
+.btn-cart {
+    height: 2rem;
+}

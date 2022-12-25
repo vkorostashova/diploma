@@ -1,0 +1,32 @@
+.cart {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0.0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+    z-index: 50;
+    overflow: scroll;
+}
+
+.cart.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.cart-content {
+    padding: 1.3rem;
+    border-radius: 0.7rem;
+    background-color: rgb(245, 243, 239);
+    cursor: pointer;
+}
+
+.cart-img {
+    height: 3rem;
+    width: 3rem;
+}
