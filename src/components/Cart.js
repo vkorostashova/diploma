@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge } from "react-bootstrap";
+import { Badge, Button } from "react-bootstrap";
 import './Cart.css'
 import Total from "./Total";
 function Cart({ active, setActive, changeCount, removeProductFromCart, products }) {
@@ -21,7 +21,10 @@ function Cart({ active, setActive, changeCount, removeProductFromCart, products 
                         </div>
                     </li>)}
                 </ul>
+
                 <Total products={products} />
+                <div className={'d-flex  justify-content-end'}><Button className={'m-1  bg-danger text-white'} onClick={() => setActive(false)}>Close</Button></div>
+
             </div>
         </div>
 
@@ -29,3 +32,10 @@ function Cart({ active, setActive, changeCount, removeProductFromCart, products 
 }
 
 export default Cart;
+
+
+
+
+
+
+

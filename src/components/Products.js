@@ -72,8 +72,9 @@ function Products() {
             <div className={"d-flex col-12  justify-content-between"}>
 
                 <h1 className={"mb-5"}>Products</h1>
-                <Button className={getSavedCart().length > 0 ? 'btn-success btn-cart mt-2 px-2' : 'btn-secondary btn-cart mt-2 px-2'} onClick={() => setCartActive(true)} >🛒</Button>
+                <Button className={getSavedCart().length > 0 ? 'btn-success btn-cart mt-2 px-2 ' : 'btn-secondary btn-cart mt-2 px-2  '} onClick={() => setCartActive(true)} >🛒</Button>
             </div>
+            
             <Search
                 searchByProductName={searchByProductName}
             />

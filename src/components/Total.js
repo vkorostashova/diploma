@@ -9,7 +9,7 @@ function Total({ products }) {
     }, 0).toFixed(2));
   }, [products]);
 
-  return <><hr /><h3 className={'col-12'}>Total: {total}$</h3></>
+  return <><hr/><h3 className={'col-12'}>Total: {total}$</h3></>
 }
 
 export default Total;
